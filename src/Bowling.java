@@ -4,21 +4,21 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class Bowling {
+	
+	private NuevaPartida partida; 
 
 	@Before
 	public void setUp() throws Exception {
+		partida = new NuevaPartida();
 	}
 
 	@Test
 	public void CrearPartida() {
 		
-		NuevaPartida partida = new NuevaPartida();
-		
 	}
 	
 	@Test
 	public void PeorPartida() {
-		NuevaPartida partida = new NuevaPartida();
 		for (int i = 1; i <= 10; i++) {
 			partida.rodar(0,0);
 			
@@ -29,7 +29,6 @@ public class Bowling {
 	
 	@Test
 	public void MejorPartida() {
-		NuevaPartida partida = new NuevaPartida();
 		for (int i = 1; i <= 10; i++) {
 			partida.rodar(10,0);
 			
