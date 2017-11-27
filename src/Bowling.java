@@ -16,6 +16,15 @@ public class Bowling {
 		
 	}
 	
-	
+	@Test
+	public void PeorPartida() {
+		NuevaPartida partida = new NuevaPartida();
+		for (int i = 0; i <= 10; i++) {
+			partida.rodar(0,0);
+			
+		}
+		assertEquals(0, partida.GetPuntuacion());
+		
+	}
 
 }
