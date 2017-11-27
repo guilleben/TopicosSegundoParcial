@@ -9,7 +9,7 @@ public class NuevaPartida {
 		
 	}
 
-	public Object GetPuntuacion() {
+	public int GetPuntuacion() {
 		
 		return puntuacion;
 	}

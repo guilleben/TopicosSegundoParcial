@@ -44,5 +44,18 @@ public class Bowling {
 		assertEquals(7, partida.GetPuntuacion());
 		
 	}
+	
+	@Test
+	public void StrikeExtra() {
+		for (int i = 1; i <= 10; i++) {
+			partida.rodar(10,0);
+			if (i == 5 && partida.GetPuntuacion() == 100){
+				partida.rodar(10, 10);
+				}
+			
+		}
+		assertEquals(120, partida.GetPuntuacion());
+		
+	}
 
 }
