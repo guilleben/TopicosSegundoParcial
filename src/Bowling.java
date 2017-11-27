@@ -36,5 +36,13 @@ public class Bowling {
 		assertEquals(100, partida.GetPuntuacion());
 		
 	}
+	
+	@Test
+	public void PuntajeFrame() {
+		
+			partida.rodar(2,5);
+		assertEquals(8, partida.GetPuntuacion());
+		
+	}
 
 }
