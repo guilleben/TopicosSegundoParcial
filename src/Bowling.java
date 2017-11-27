@@ -49,7 +49,7 @@ public class Bowling {
 	public void StrikeExtra() {
 		for (int i = 1; i <= 10; i++) {
 			partida.rodar(10,0);
-			if (i == 5 && partida.GetPuntuacion() == 100){
+			if (i == 10 && partida.GetPuntuacion() == 100){
 				partida.rodar(10, 10);
 				}
 			
