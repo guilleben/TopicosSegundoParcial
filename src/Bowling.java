@@ -12,10 +12,6 @@ public class Bowling {
 		partida = new NuevaPartida();
 	}
 
-	@Test
-	public void CrearPartida() {
-		
-	}
 	
 	@Test
 	public void PeorPartida() {
